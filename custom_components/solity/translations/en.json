@@ -1,0 +1,21 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "description": "Enter your Solity Smart Lock account credentials.",
+                "data": {
+                    "username": "Email",
+                    "password": "Password"
+                }
+            }
+        },
+        "error": {
+            "auth": "Invalid email or password.",
+            "connection": "Unable to connect to Solity servers.",
+            "unknown": "Unknown error occurred."
+        },
+        "abort": {
+            "already_configured": "This account is already configured."
+        }
+    }
+}
